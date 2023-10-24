@@ -378,18 +378,18 @@ int main()
 					else if(itembox.key == 2)
 					{
 						status = 2;
-						score -= 10;
+						score -= 50;
 						
 					}
 					else if (itembox.key == 3)
 					{
 						status = 3;
-						score -= 20;
+						score -= 100;
 					}
 					else if (itembox.key == 4)
 					{
 						status = 3;
-						score -= 30;
+						score -= 150;
 					}
 					else if (itembox.key == 5)
 					{
@@ -504,15 +504,15 @@ int main()
 					}
 					else if (status == 2)
 					{
-						Showtext(440, 100, "Score -10", 30, window, &font);
+						Showtext(440, 100, "Score -50", 30, window, &font);
 					}
 					else if (status == 3)
 					{
-						Showtext(440, 100, "Score -20", 30, window, &font);
+						Showtext(440, 100, "Score -100", 30, window, &font);
 					}
 					else if (status == 4)
 					{
-						Showtext(440, 100, "Score -30", 30, window, &font);
+						Showtext(440, 100, "Score -150", 30, window, &font);
 					}
 					else if (status == 5)
 					{
