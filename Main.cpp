@@ -504,15 +504,15 @@ int main()
 					}
 					else if (status == 2)
 					{
-						Showtext(440, 100, "Coin -10", 30, window, &font);
+						Showtext(440, 100, "Score -10", 30, window, &font);
 					}
 					else if (status == 3)
 					{
-						Showtext(440, 100, "Coin -20", 30, window, &font);
+						Showtext(440, 100, "Score -20", 30, window, &font);
 					}
 					else if (status == 4)
 					{
-						Showtext(440, 100, "Coin -30", 30, window, &font);
+						Showtext(440, 100, "Score -30", 30, window, &font);
 					}
 					else if (status == 5)
 					{
