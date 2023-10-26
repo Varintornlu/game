@@ -576,17 +576,7 @@ int main()
 				while (sf::Mouse::isButtonPressed(sf::Mouse::Left));
 			}
 		}
-
-
-
-
-
-
 		window.display();
 	}
-
-
-
-	return 0;
 }
 
